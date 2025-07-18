@@ -34,28 +34,6 @@ npm install
 npm run dev
 ```
 
-## 🗂️ Project Structure
-
-English dictionary App
-├── public/                  # Static assets (index.html, favicon, etc.)
-│
-├── src/                     # All source code lives here
-│   ├── components/          # Reusable UI components
-│   │   └── InputBox.jsx     # Input field and search button
-│   │
-│   ├── context/             # React Context for global state
-│   │   └── AppContext.jsx   # Centralized app state manager
-│   │
-│   ├── App.jsx              # Root component for the app
-│   └── main.jsx             # Entry point (ReactDOM.createRoot)
-│
-├── .gitignore               # Ignore node_modules, .env, etc.
-├── package.json             # Project metadata and dependencies
-├── README.md                # You're reading it 😄
-└── vite.config.js           # Configuration file for Vite
-
-
-
 ## 📡 API Used
 Dictionary API (Free)
 No key needed. Just send a GET request like:
