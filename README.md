@@ -36,13 +36,24 @@ npm run dev
 
 ## 🗂️ Project Structure
 
-src/
+your-project-name/
+├── public/                  # Static files (favicon, index.html, etc.)
 │
-├── AppContext.jsx         # Global state using React Context
-├── components/
-│   └── InputBox.jsx       # Input + button to search words
-├── App.jsx
-└── main.jsx
+├── src/                     # Source code
+│   ├── components/          # Reusable components
+│   │   └── InputBox.jsx     # Input field and search button
+│   │
+│   ├── context/             # Context API files (organized for scale)
+│   │   └── AppContext.jsx   # Global state using React Context
+│   │
+│   ├── App.jsx              # Root component
+│   └── main.jsx             # Entry point (ReactDOM.render or createRoot)
+│
+├── .gitignore               # Git ignore rules
+├── package.json             # Project metadata & dependencies
+├── README.md                # Project description & setup guide
+└── vite.config.js           # Vite configuration (if you're using Vite)
+
 
 ## 📡 API Used
 Dictionary API (Free)
