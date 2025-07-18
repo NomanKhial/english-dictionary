@@ -1,8 +1,15 @@
 import { useAppContext } from "./AppContext";
+import { Details } from "./Components/Details";
+import InputBox from "./Components/InputBox";
+import React from "react";
 
 function App() {
-  const {name} = useAppContext()
-  return <h1>Hello {name}</h1>;
+  return (
+    <div className="container">
+      <InputBox />
+      <Details />
+    </div>
+  );
 }
 
 export default App;
