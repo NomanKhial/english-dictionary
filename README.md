@@ -25,7 +25,6 @@ Clone this repo and install dependencies:
 
 ```bash
 git clone https://github.com/NomanKhial/english-dictionary.git
-cd react-dictionary-app
 npm install
 ```
 
